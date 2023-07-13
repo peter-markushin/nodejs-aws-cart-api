@@ -1,0 +1,13 @@
+.gitignore
+.git
+.env*
+
+cdk.out
+infra
+dist
+docker
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+var/
