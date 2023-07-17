@@ -1,12 +1,12 @@
 .gitignore
-.git
+.git/
 .env*
 
-cdk.out
-infra
-dist
+cdk.out/
+infra/
+dist # build in the image
 docker
-node_modules
+node_modules/ # prod modules installed in the image
 npm-debug.log
 Dockerfile
 .dockerignore
